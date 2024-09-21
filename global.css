@@ -1,0 +1,11 @@
+.btn{
+    background-color: blue;
+    color: white;
+    /* width: 500px; */
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
