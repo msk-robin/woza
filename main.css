@@ -99,3 +99,85 @@ nav-link:hover{
 }
 
 
+
+@media screen and (min-width:992px){
+    .nav-btn{
+        display: none;
+    }
+    .navbar{
+        height: 6rem;
+        background-color: red;
+    }
+    .nav-center{
+        display: flex;
+        align-items: center;
+    }
+    .nav-header{
+        height: auto;
+        margin-right: 2rem;
+    }
+    .nav-links{
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+    .nav-link {
+        padding:0;
+        border-top: none;
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
+    .contact-link{
+        margin-left: auto;
+    }
+}
+
+
+/* 
+==================
+page
+================== 
+*/
+.page{
+    background-color: red;
+    width: 90vw;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding-top: 2rem;
+    min-height: calc(100vh - (6rem + 4rem));
+
+}
+
+/* 
+==================
+Page
+================== 
+*/
+
+/* 
+==================
+Footer
+================== 
+*/
+.page-footer{
+    height: 4rem;
+    background-color: var(--test-200);
+    color: var(--test-300);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-footer{
+    margin-bottom: 0;
+}
+.footer-logo, .page-footer a{
+    color: var(--test-100);
+
+}
+
+/* 
+==================
+
+================== 
+*/
