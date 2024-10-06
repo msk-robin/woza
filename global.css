@@ -1,11 +1,18 @@
+
+
 .btn{
     background-color: blue;
     color: white;
-    /* width: 500px; */
-    border-radius: 5px;
-    padding: 5px;
-    font-size: 30px;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    /* font-size: 20px; */
+
 }
 a{
     text-decoration: none;
+}
+
+.nav-btn{
+    width: 40px;
+    height:40px;
 }

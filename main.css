@@ -4,6 +4,29 @@
     /* font-size: 20px; */
 }
 
+:root{
+
+    /* colors (primary color, sheds of grey, other colors, fonts) */
+    --test-100: purple;
+    --test-200: black;
+    --test-300: white;
+    --test-400: blue;
+
+    /* rest of vars */
+    --border-radius: 0.25rem;
+    --letterSpacing: 1px;
+    --transition:0.3s ease-in-out all;
+    --max-width: 1120px;
+    --fixed-width: 600px;
+
+    /* box shadow */
+
+}
+
+
+
+
+
 
 /* 
 ==================
@@ -11,20 +34,63 @@ Navbar
 ================== 
 */
 .navbar{
-    display: block;
+    display:flex;
     justify-content: center;
     align-items: center;
-    background: black;
+    /* background: var(--test-200); */
 
 }
 .nav-center{
     width: 90vw;
-    max-width: 500px;
-    background: purple;
+    max-width:var(--max-width);
+    /* background:var(--test-100); */
 }
-.navbar-links{
-    display: block;
-    justify-content: center;
-    /* align-items: center; */
+.nav-header{
+    height:6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
+
+.nav-header img{
+    width: 40px;
+    background-color: var(--test-100);
+    border-radius: var(--border-radius);
+}
+
+.nav-btn{
+    padding: 0.15rem 0.75rem;
+}
+.nav-btn i{
+    font-size: 1.25rem;
+}
+
+
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* todo */
+}
+
+.nav-link{
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--test-200);
+    letter-spacing: var(--letterSpacing);
+    padding: 1rem 0;
+    border-top: 1px solid var(--test-200); 
+}
+
+nav-link:hover{
+    color: var(--test-400);
+}
+
+.contact-link a{
+    padding:0.30rem 1rem;
+    /* background-color: aqua; */
+}
+
+
